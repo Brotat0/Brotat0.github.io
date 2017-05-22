@@ -1029,6 +1029,7 @@
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
     color: #ffffff;
     font-size: .95rem;
+    left: 1rem;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
 #player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
@@ -1036,8 +1037,8 @@
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
     background: #d20000;
-    border-radius: 1rem;
-    left: 1.2rem;
+    border-radius: 0rem;
+    left: 1.1rem;
 }
 #player-controller .right ul li a.dubup:hover,
 #player-controller .right ul li a.dubup.voted,
