@@ -562,7 +562,6 @@
 #main_player {
     background: rgba(20,20,20,0.66);
     border-radius: 0rem 0rem 0rem 0rem;
-    border: 1px solid #878c8e;
 }
 #main_player .player_header {
     background: inherit;
