@@ -3,8 +3,8 @@
 
 
 
-                    /*              */
-                    /*              */
+                   			/*              */
+                    			/*              */
 					/* User Colours */
 					/*              */
 					/*              */
@@ -188,8 +188,8 @@
 	color: #e04af7!important;
 	font-family: "Times New Roman", sans-serif!important;
 }
-                    /*             */
-                    /*             */
+                    			/*             */
+                    			/*             */
 					/* User Badges */
 					/*             */
 					/*             */
@@ -240,8 +240,8 @@
     background-image: url(http://i.imgur.com/9OYSGX5.png);
     display: inline-block;
 }
-                    /*            */
-                    /*            */
+                    			/*            */
+                    			/*            */
 					/* Current DJ */
 					/*   colour   */
 					/*            */
@@ -308,8 +308,8 @@
    margin-right:0.5em;
    color: orange;
 }
-                    /*            */
-                    /*            */
+                    			/*            */
+                    			/*            */
 					/*  DJ roles  */
 					/*            */
 					/*            */
@@ -553,8 +553,8 @@
     transition-property: opacity;
     opacity: 1;
 }
-                    /*            */
-                    /*            */
+                    			/*            */
+                    			/*            */
 					/*   Video    */
 					/*   player   */
 					/*            */
@@ -1003,12 +1003,8 @@
 #main_player .play-song-link-container .play-song-link-browser:hover {
     color: #5de514;
 }
-
-
-
-
-                    /*            */
-                    /*            */
+                   	 		/*            */
+                    			/*            */
 					/*   Player   */
 					/* controller */
 					/*            */
@@ -1033,12 +1029,12 @@
     padding: 0px;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
-    color: #ffffff;
+    color: #5de514;
     font-size: .95rem;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
 #player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
-    color: #d20000!important;
+    color: #5de514!important;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
     background: #d20000;
@@ -1076,11 +1072,11 @@
     color: #CC5A93;
 }
 #player-controller .right ul li .display-browser:hover .icon-playlist {
-    color: #5A93CC;
+    color: #5de514;
 }
-					/*			*/
+					/*	    */
 					/*   Chat   */
-					/*			*/
+					/*	    */
 #main-room .right_section {
     background: rgba(20,20,20,0.66);
     border-radius: 0px;
