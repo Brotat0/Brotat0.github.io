@@ -584,11 +584,11 @@
 }
 #main_player .player_header span:hover:not(.active) {
     background: rgba(0,0,0,0);
-    color: #d10000;
+    color: #5de514;
 }
 #main_player .player_header span.active {
     background: rgba(0,0,0,0);
-    color: #d20000;
+    color: #5de514;
     opacity: 1;
 }
 #main_player .player_header span.edit-room i {
@@ -1027,17 +1027,17 @@
     padding: 0px;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
-    color: #5de514;
+    color: #ffffff;
     font-size: .95rem;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
 #player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
-    color: #5de514!important;
+    color: #ffffff!important;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
     background: #d20000;
     border-radius: 1rem;
-    left: 1rem;
+    left: 1.2rem;
 }
 #player-controller .right ul li a.dubup:hover,
 #player-controller .right ul li a.dubup.voted,
