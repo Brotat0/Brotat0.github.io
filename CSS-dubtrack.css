@@ -188,6 +188,9 @@
 	color: #e04af7!important;
 	font-family: "Times New Roman", sans-serif!important;
 }
+
+#chat .chat-container .chat-messages .chat-main li.currentDJ .username:before {
+    color:inherit;
                     			/*             */
                     			/*             */
 					/* User Badges */
