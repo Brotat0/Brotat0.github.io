@@ -502,7 +502,7 @@
     color: rgba(20,20,20,0.66);
     opacity: 1;
     border-radius: 0rem;
-    padding-top: 0px;
+    padding-top: 5px;
     top: -49px;
     
 }
@@ -512,11 +512,11 @@
     opacity: 1;
     font-size: 15.2px;
     font-size: .95rem;
-    line-height: 10px;
+    line-height: 12px;
     border-radius: 0;
 }
 #main_player .player_header .active {
-    padding-bottom: 14px;
+    padding-bottom: 0px;
 }
 #main_player .player_header span:hover:not(.active) {
     background: rgba(0,0,0,0);
