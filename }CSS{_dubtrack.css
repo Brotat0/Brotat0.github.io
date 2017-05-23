@@ -494,12 +494,12 @@
 					/*            */
 /* Video player */
 #main_player {
-    background: rgba(20,20,20,0.66);
+    background: rgba(20,20,20,0.44);
     border-radius: 0rem;
 }
 #main_player .player_header {
     background: inherit;
-    color: rgba(20,20,20,0.66);
+    color: rgba(20,20,20,0.44);
     opacity: 1;
     border-radius: 0rem;
     padding-top: 12px;
@@ -1011,7 +1011,7 @@
 					/*   Chat   */
 					/*	    */
 #main-room .right_section {
-    background: rgba(20,20,20,0.66);
+    background: rgba(20,20,20,0.44);
     border-radius: 0px;
     border: none;
 }
