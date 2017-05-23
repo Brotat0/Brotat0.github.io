@@ -502,21 +502,20 @@
     color: rgba(20,20,20,0.66);
     opacity: 1;
     border-radius: 0rem;
-    padding-top: 5px;
+    padding-top: 12px;
     top: -49px;
-    
-}
+    }
 #main_player .player_header span {
     background: rgba(0,0,0,0);
     color: #ffffff;
     opacity: 1;
     font-size: 15.2px;
     font-size: .95rem;
-    line-height: 12px;
+    line-height: .8;
     border-radius: 0;
 }
 #main_player .player_header .active {
-    padding-bottom: 0px;
+    padding-bottom: 14px;
 }
 #main_player .player_header span:hover:not(.active) {
     background: rgba(0,0,0,0);
@@ -530,9 +529,6 @@
 #main_player .player_header span.edit-room i {
     line-height: 0.95;
     left: -0.5px;
-}
-#main_player .player_header span.skip-el {
-    margin-right: 15px;
 }
 #main_player .player_header #topbanner {
     margin-top: -6rem;
