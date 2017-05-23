@@ -242,74 +242,6 @@
 }
                     			/*            */
                     			/*            */
-					/* Current DJ */
-					/*   colour   */
-					/*            */
-#chat .chat-container .chat-messages .chat-main li.manager .username:before,
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong.manager .username:before
-{
-   display: inline-block;
-   font-family: 'Italic', sans-serif!important;
-   font-style: normal;
-   font-weight: normal;
-   font-size:smaller;
-   margin-right:0.5em;
-   color: pink;
-}
-
-
-#chat .chat-container .chat-messages .chat-main li.co-owner .username:before,
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong.co-owner .username:before
-{
-   display: inline-block;
-   font-family: 'Italic', sans-serif!important;
-   font-style: normal;
-   font-weight: normal;
-   font-size:smaller;
-   margin-right:0.5em;
-   color: red;
-}
-
-
-#chat .chat-container .chat-messages .chat-main li.creator .username:before,
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong.creator .username:before
-{
-   display: inline-block;
-   font-family: 'Italic', sans-serif!important;
-   font-style: normal;
-   font-weight: normal;
-   font-size:smaller;
-   margin-right:0.5em;
-   color: red;
-}
-
-
-#chat .chat-container .chat-messages .chat-main li.mod .username:before,
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong.mod .username:before
-{
-	display: inline-block;
-   font-family: 'Italic', sans-serif!important;
-   font-style: normal;
-   font-weight: normal;
-   font-size:smaller;
-   margin-right:0.5em;
-   color: blue;
-}
-
-
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username:before,
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong.resident-dj .username:before
-{
-	display: inline-block;
-   font-family: 'Italic', sans-serif!important;
-   font-style: normal;
-   font-weight: normal;
-   font-size:smaller;
-   margin-right:0.5em;
-   color: orange;
-}
-                    			/*            */
-                    			/*            */
 					/*  DJ roles  */
 					/*            */
 					/*            */
@@ -570,6 +502,7 @@
     border-radius: 0rem 0rem 0rem 0rem;
     padding-top: 12px;
     top: -49px;
+    
 }
 #main_player .player_header span {
     background: rgba(0,0,0,0);
@@ -577,6 +510,7 @@
     opacity: 1;
     font-size: 15.2px;
     font-size: .95rem;
+    line-height: 8px;
     border-radius: 0;
 }
 #main_player .player_header .active {
@@ -660,7 +594,7 @@
     background: rgba(40,40,40,0.7);
 }
 #browser .browser-content .browser-content-main .sidebar .display-sidebar {
-    background: #5A93CC;
+    background: #5de514;
     color: #1c1c1c;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li {
@@ -684,7 +618,7 @@
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li:hover:not(.selected),
 #browser .browser-content .browser-content-main .sidebar .import-playlist:hover,
 #browser .browser-content .browser-content-main .sidebar .create-playlist:hover {
-    background: #5A93CC;
+    background: #5de514;
     color: #222229;
 }
 #browser .browser-content .browser-content-main .sidebar .import-playlist,
@@ -694,7 +628,7 @@
 }
 #browser .browser-content .browser-content-main .sidebar .import-playlist span,
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span {
-    color: #5A93CC;
+    color: #5de514;
 }
 #browser .browser-content .browser-content-main .sidebar .import-playlist:hover span,
 #browser .browser-content .browser-content-main .sidebar .create-playlist:hover .create-playlist-display span{
@@ -708,7 +642,7 @@
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form:not(:hover) .icon-createplaylist,
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form:not(:hover) .icon-createplaylist:before {
     background: transparent;
-    color: #5A93CC;
+    color: #5de514;
 }
 
 /* Video results container */
@@ -794,14 +728,14 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item.selected {
-    border: 1px solid #5A93CC;
+    border: 1px solid #5de514;
     margin-left: 0px;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview {
-    color: #5A93CC;
+    color: #5de514;
     cursor: pointer;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
