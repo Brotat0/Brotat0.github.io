@@ -190,7 +190,7 @@
 }
 
 #chat .chat-container .chat-messages .chat-main li.currentDJ .username:before {
-    color:inherit;
+    color:inherit!important;
 }
                     			/*             */
                     			/*             */
