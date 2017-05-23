@@ -495,15 +495,15 @@
 /* Video player */
 #main_player {
     background: rgba(20,20,20,0.66);
-    border-radius: 0rem 0rem 0rem 0rem;
+    border-radius: 0rem;
 }
 #main_player .player_header {
     background: inherit;
     color: rgba(20,20,20,0.66);
     opacity: 1;
-    border-radius: 0rem 0rem 0rem 0rem;
+    border-radius: 0rem;
     padding-top: 12px;
-    top: -49px;
+    top: -55px;
     
 }
 #main_player .player_header span {
@@ -512,7 +512,7 @@
     opacity: 1;
     font-size: 15.2px;
     font-size: .95rem;
-    line-height: 1px;
+    line-height: 10px;
     border-radius: 0;
 }
 #main_player .player_header .active {
