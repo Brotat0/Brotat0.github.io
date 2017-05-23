@@ -919,8 +919,8 @@
 #main_player .play-song-link-container .play-song-link-browser {
 	margin-bottom: 0px;
 	background: none;
-	border-radius: 10px;
-    background: rgba(15,15,15,0.66);
+	border-radius: 0px;
+    background: rgba(20,20,20,0.44);
 	z-index: 1;
 }
 
