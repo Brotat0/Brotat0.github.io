@@ -109,22 +109,22 @@
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
-	color: #8e8f91;
+	color: #42f4d7;
 	font-family: "Times New Roman", sans-serif!important;
 }
 
 #chat .chat-container .chat-messages .chat-main li.manager .user-role {
-    color:#8e8f91;
+    color:#42f4d7;
 	font-family: "Times New Roman", sans-serif!important;
 }
 
 #chat .chat-container .chat-messages .chat-main li.manager .username {
-	color: #8e8f91; 
+	color: #42f4d7; 
 	font-family: "Times New Roman", sans-serif!important
 }
 
 #main_avatar_room #chat-user-list-room #avatar-list li.manager .user-role{
-	color: #8e8f91;
+	color: #42f4d7;
 	font-family: "Times New Roman", sans-serif!important;
 }
 
