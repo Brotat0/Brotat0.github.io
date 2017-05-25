@@ -546,6 +546,15 @@
 #main-room .left_section {
     margin-top: 2rem;
 }
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
+    background: #aaa;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    background: #5de514;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover {
+    background: #fff;
+}
 /* skip button */
 #main_player .player_header span.skip-el {
    	float: right;
@@ -556,7 +565,6 @@
 	border: 0.5px solid #ffffff;
 	vertical-align: center;
 }
-
 #main_player .player_header span.skip-el:hover {
     	margin-right: 15px;
 	color: red;
