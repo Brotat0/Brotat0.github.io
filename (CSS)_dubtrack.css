@@ -497,6 +497,12 @@
 					/*   player   */
 					/*            */
 /* Video player */
+#main-room .left_section .main-player-wrapper {
+    display: table-cell;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 1.6rem;
+}
 #main_player {
     background: rgba(20,20,20,0.44);
     border-radius: 0rem;
