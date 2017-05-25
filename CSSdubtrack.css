@@ -1029,3 +1029,23 @@
     border-radius: 0px;
     border: none;
 }
+
+.right_section {
+    border-radius: 0rem 0 0 0rem !important;
+}
+					/*	    */
+					/*  Header  */
+					/*          */
+#header-global {
+    position: fixed;
+    padding: 12.8px 16px;
+    padding: .8rem 1rem;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    width: 100%;
+    min-height: 57.6px;
+    min-height: 3.6rem;
+    background: rgba(20,20,20,0);
+    zoom: 1;
+}
