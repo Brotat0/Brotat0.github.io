@@ -1057,3 +1057,6 @@
     background: rgba(20,20,20,0);
     zoom: 1;
 }
+.header-center-logo img{
+    visibility: hidden
+}
