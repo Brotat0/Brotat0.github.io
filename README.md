@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/KrLopwK.png)
 
 
-link: https://rawgit.com/Brotat0/dubtrack_css/master/CSS_dubtrack.css
+link: https://rawgit.com/Brotat0/dubtrack_css/master/CSS-dubtrack.css
 
 
-Feel free to fork 
+Feel free to fork
