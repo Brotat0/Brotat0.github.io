@@ -512,9 +512,9 @@
     color: rgba(20,20,20,0.44);
     opacity: 1;
     border-radius: 0rem;
-    padding-top: 12px;
+    padding-top: 14px;
     top: -49px;
-    }
+}
 #main_player .player_header span {
     background: rgba(0,0,0,0);
     color: #ffffff;
@@ -1059,4 +1059,16 @@
 }
 .header-center-logo img{
     visibility: hidden
+}
+#header-global .header-right-navigation .user-info .user-image {
+    width: 40px;
+    /* width: 2rem; */
+    height: 40px;
+    /* height: 2rem; */
+    overflow: hidden;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    margin-left: 12.8px;
+    margin-left: .8rem;
 }
