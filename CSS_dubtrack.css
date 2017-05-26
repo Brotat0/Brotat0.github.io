@@ -992,9 +992,9 @@
     color: #ffffff!important;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: #d20000;
+    background: #5de514;
     border-radius: 0rem;
-    left: 1.1rem;
+    left: 0.9rem;
 }
 #player-controller .right ul li a.dubup:hover,
 #player-controller .right ul li a.dubup.voted,
