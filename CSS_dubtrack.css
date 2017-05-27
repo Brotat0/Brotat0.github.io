@@ -940,10 +940,11 @@
 	border-radius: 0px;
     	background: rgba(20,20,20,0.44);
 	z-index: 1;
+	text-align:center
 }
 
 #main_player .play-song-link-container .play-song-link-browser: i {
-	color: rgba(0,0,0,0);
+	display:none!important;
 }
 
 #main_player .play-song-link-container .play-song-link {
@@ -951,11 +952,13 @@
 }
 
 #main_player .play-song-link-container .play-song-link-browser:hover i {
-    color: #5de514;
+ 	/*   color: #5de514; */
+    	display:none!important;
 }
 
 #main_player .play-song-link-container .play-song-link-browser:hover {
-    color: #5de514;
+    	color: #5de514;
+    	text-align: center;
 }
                    	 		/*            */
                     			/*            */
