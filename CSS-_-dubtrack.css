@@ -943,7 +943,7 @@
 	text-align:center
 }
 
-#main_player .play-song-link-container .play-song-link-browser:span i {
+#main_player .play-song-link-container .play-song-link-browser i {
 	display: none!important;
 }
 
