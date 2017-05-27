@@ -1072,3 +1072,15 @@
     margin-left: 12.8px;
     margin-left: .8rem;
 }
+.icon-menu:before {
+    content: "\e912";
+    color: #5de514;
+}
+#header-global .header-left-navigation a {
+    display: inline-block;
+    color: white;
+}
+#header-global .header-left-navigation:hover a {
+    display: inline-block;
+    color: #5de514;
+}
