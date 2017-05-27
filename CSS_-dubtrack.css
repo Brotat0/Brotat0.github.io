@@ -943,9 +943,8 @@
 	text-align:center
 }
 
-#main_player .play-song-link-container .play-song-link-browser: i {
-	/*display: none!important;*/
-	color: red;
+#main_player .play-song-link-container .play-song-link-browser:span i {
+	display: none!important;
 }
 
 #main_player .play-song-link-container .play-song-link-browser:hover i {
