@@ -1,5 +1,5 @@
-@import url("https://rawgit.com/Brotat0/cssdub/master/CORNERED%20ICONS.css");              /* cornered icons */
-@import url("https://rawgit.com/Brotat0/mahcss/master/noroletest.css");                    /* removed original roles */
+@import url("https://rawgit.com/Brotat0/cssdub/master/CORNERED%20ICONS.css");              
+@import url("https://rawgit.com/Brotat0/mahcss/master/noroletest.css");                    
 
 
 
@@ -547,13 +547,13 @@
     margin-top: 2rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
-    background: #aaa;
+    background: #5de514;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
     background: #5de514;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover {
-    background: #fff;
+    background: #5de514;
 }
 /* skip button */
 #main_player .player_header span.skip-el {
