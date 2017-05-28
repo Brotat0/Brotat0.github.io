@@ -8,3 +8,6 @@
 Although, that does not mean that the other link will not work. Both links might work aswell. 
 
 Feel free to fork
+
+
+* Main colour: #5de514
