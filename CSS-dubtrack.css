@@ -1045,7 +1045,6 @@
 }
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
 	border-radius:10px;
-	border: 1px solid #5de514;
 }
 .ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
     background-color: #5de514;
@@ -1075,7 +1074,7 @@
     width: 40px;
     height: 40px;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     margin: 0;
     padding: 0;
