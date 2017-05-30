@@ -1044,7 +1044,7 @@
     border-radius: 0rem 0 0 0rem !important;
 }
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
-	border-radius:10%;
+	border-radius:10px;
 	border: 1px solid #5de514;
 }
 .ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
@@ -1072,8 +1072,8 @@
     visibility: hidden
 }
 #header-global .header-right-navigation .user-info .user-image {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     border-radius: 5px;
     border: 0.01px solid #5de514;
