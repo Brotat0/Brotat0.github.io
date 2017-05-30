@@ -1040,10 +1040,18 @@
     border-radius: 0px;
     border: none;
 }
-
 .right_section {
     border-radius: 0rem 0 0 0rem !important;
 }
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
+	border-radius:10%;
+	border: 1px solid #5de514;
+}
+.ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
+    background-color: #5de514;
+}
+
+
 					/*	    */
 					/*  Header  */
 					/*          */
@@ -1064,12 +1072,11 @@
     visibility: hidden
 }
 #header-global .header-right-navigation .user-info .user-image {
-    width: 40px;
-    /* width: 2rem; */
-    height: 40px;
-    /* height: 2rem; */
+    width: 32px;
+    height: 32px;
     overflow: hidden;
     border-radius: 5px;
+    border: 0.01px solid #5de514;
     margin: 0;
     padding: 0;
     margin-left: 12.8px;
