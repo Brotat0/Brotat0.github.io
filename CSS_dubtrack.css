@@ -1069,14 +1069,14 @@
     zoom: 1;
 }
 .header-center-logo img{
-    visibility: hidden
+    visibility: hidden;
 }
 #header-global .header-right-navigation .user-info .user-image {
     width: 40px;
     height: 40px;
     overflow: hidden;
     border-radius: 5px;
-    border: 0.01px solid #5de514;
+    border: none;
     margin: 0;
     padding: 0;
     margin-left: 12.8px;
@@ -1102,3 +1102,9 @@
      content: "\e800";
      color: #5de514;
  }
+			/*		*/
+			/*   Important  */
+			/*		*/
+body, button, input, select, textarea { /* all text colour */
+    color: ghostwhite;
+}
