@@ -1,5 +1,5 @@
 ![](http://i.imgur.com/KVpnNDR.png)
-![](http://i.imgur.com/MjTDL43.png)
+
 
 
 ***
