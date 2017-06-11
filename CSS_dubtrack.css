@@ -571,11 +571,6 @@
 }
 
 /* Playlist browser */
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems {
-    background-image: url(http://i.imgur.com/W4dHrVf.jpg);
-    background-size: 120%;
-    background-repeat: no-repeat;
-}
 #browser .browser-content {
     background: rgba(20,20,20,.5);
     width: 55%;
