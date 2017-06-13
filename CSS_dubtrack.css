@@ -508,7 +508,7 @@ limitations under the License.
 /* SoundCloud */
 #room-main-player-container-soundcloud,
 .playerPreview .SCplayerImage{
-  background: url(http://i.imgur.com/G2BVyhe.png) center center/80% 80% no-repeat,
+  background: url() center center/80% 80% no-repeat,
               linear-gradient(to top,
                               rgba(30, 41, 66, 0.70) 0%,
                               rgba(30, 41, 66, 0.70) 100%),
@@ -542,7 +542,7 @@ limitations under the License.
     border-radius: 0;
 }
 #main_player .player_header .active {
-    padding-bottom: 14px;
+    padding-bottom: 13px;
 }
 #main_player .player_header span:hover:not(.active) {
     background: rgba(0,0,0,0);
@@ -551,7 +551,8 @@ limitations under the License.
 #main_player .player_header span.active {
     background: rgba(0,0,0,0);
     color: #5de514;
-    opacity: 1;
+    font-size: smaller;
+    border-bottom: 1px solid;
 }
 #main_player .player_header span.edit-room i {
     line-height: 0.95;
@@ -571,6 +572,14 @@ limitations under the License.
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover {
     background: #5de514;
+}
+#main_player #mods-controllers, #main_player #room-info-display, #main_player .player_container {
+    background-image: url(http://i.imgur.com/jBZA5MQ.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+body.video-hidden:not(.no-song-playing) #main_player .player_container #room-main-player-container:before {
+     display:none;
 }
 /* skip button */
 #main_player .player_header span.skip-el {
@@ -592,9 +601,9 @@ limitations under the License.
 }
 
 /* Playlist browser */
+
 #browser .browser-content {
     background: rgba(20,20,20,.5);
-    width: 55%;
     height: 100%;
     max-width: 1280px;
     max-width: 80rem;
@@ -602,7 +611,6 @@ limitations under the License.
     overflow: hidden;
     position: relative;
     z-index: 16;
-    left: -25.5rem;
 }
 
 
@@ -1101,6 +1109,41 @@ limitations under the License.
 .ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
     background-color: #5de514;
 }
+#chat .chat-container .chat-messages .chat-main li.system-error {
+    text-transform: capitalize;
+}
+
+/* Popover */
+#user_popover .usercontent {
+    background-color: #161616;
+    box-shadow: none;
+}
+#user_popover {
+    border-radius: 0px;
+    background-color: #393939;
+    box-shadow: none;
+    border: .01rem solid #5de514;
+}
+#user_popover .global-actions {
+    background: #191919;
+}
+#chat .chat-container .chat-messages .chat-main li .meta-info .timeinfo {
+    color: #5de514;
+}
+#user_popover .global-actions a {
+    border-radius: .5rem;
+    border: 1px solid #696969;
+    background: 0;
+}
+#user_popover .global-actions a:hover {
+    border-radius: .5rem;
+    background-color: #5de514;
+    color: #191919;
+}
+#user_popover .global-actions {
+    margin-top: 0;
+    margin-bottom: 0;
+}
     
 
     /*  Header  */
@@ -1179,7 +1222,20 @@ limitations under the License.
 }
 }
 
-/*   Important  */
+/* Other */
 body, button, input, select, textarea { /* all text colour */
     color: ghostwhite;
 }
+a {
+    color: white;
+    font-weight: 900;
+}
+#main-loading {
+    background: #5de514;
+}
+
+
+
+
+
+
