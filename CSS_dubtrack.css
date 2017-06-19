@@ -1,208 +1,80 @@
-/*
-
-Copyright 2017 Dionysis S
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-*/
-
-
-
-
 @import url("https://rawgit.com/Brotat0/mahcss/master/noroletest.css");                    
 
 
 
 /* User Colours */
-#main_avatar_room #main-user-list-room #avatar-list li .username {
-    color: #f4b942;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li .username {
-    color: #f4b942;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li .user-role {
-    color:#f4b942;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#main_avatar_room #main-user-list-room #avatar-list li .username,
+#chat .chat-container .chat-messages .chat-main li .username,
+#chat .chat-container .chat-messages .chat-main li .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li .user-role {
     color: #f4b942;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#main_avatar_room #main-user-list-room #avatar-list li.dj .username {
-    color: #1687ff;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.dj .username {
-    color: #1687ff;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.dj .user-role {
-    color:#1687ff;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#main_avatar_room #main-user-list-room #avatar-list li.dj .username,
+#chat .chat-container .chat-messages .chat-main li.dj .username,
+#chat .chat-container .chat-messages .chat-main li.dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.dj .user-role {
     color: #1687ff;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
-    color: #e2440b;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username {
-    color:  #e2440b;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role {
-    color:#e2440b;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
     color: #e2440b;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#main_avatar_room #main-user-list-room #avatar-list li.vip .username {
-    color: #71f442;
-/*            font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.vip .username {
-    color:#71f442;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.vip .user-role {
-    color:#71f442;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username,
+#chat .chat-container .chat-messages .chat-main li.vip .username,
+#chat .chat-container .chat-messages .chat-main li.vip .user-role ,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
     color: #71f442;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#chat .chat-container .chat-messages .chat-main li.mod .username {
-    color: #904de2;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.mod .username {
-    color: #904de2;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.mod .user-role {
-    color:#904de2;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.mod .user-role {
-    color: #904de2;
+#chat .chat-container .chat-messages .chat-main li.mod .username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username,
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
+    color: #ff0066;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }    
 
-#main_avatar_room #main-user-list-room #avatar-list li.manager .username {
-    color: #42f4d7;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.manager .user-role {
-    color:#42f4d7;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}    
-
-#chat .chat-container .chat-messages .chat-main li.manager .username {
-    color: #42f4d7; 
-/*    font-family: "Times New Roman", sans-serif!important; */
-}        
-
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username,
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .username,
 #main_avatar_room #chat-user-list-room #avatar-list li.manager .user-role{
     color: #42f4d7;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#chat .chat-container .chat-messages .chat-main li.co-owner .user-role {
-    color: #ff162a;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}    
-
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username {
-    color: #ff162a;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.co-owner .username {
-    color: #ff162a; 
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username ,
+#chat .chat-container .chat-messages .chat-main li.co-owner .username ,
 #main_avatar_room #chat-user-list-room #avatar-list li.co-owner .user-role{
     color: #ff162a;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#chat .chat-container .chat-messages .chat-main li.creator .user-role {
-    color:#d20000;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.creator .username {
-    color: #d20000;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.creator .username {
-    color: #d20000; 
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#chat .chat-container .chat-messages .chat-main li.creator .user-role ,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username,
+#chat .chat-container .chat-messages .chat-main li.creator .username ,
 #main_avatar_room #chat-user-list-room #avatar-list li.creator .user-role{
     color: #d20000;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }
 
-#main_avatar_room #main-user-list-room #avatar-list li.admin .username {
-    color: #e04af7;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}    
-
-#chat .chat-     .chat-messages .chat-main li.admin .username {
-    color: #e04af7;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
-#chat .chat-container .chat-messages .chat-main li.admin .user-role {
-    color:#e04af7;
-/*    font-family: "Times New Roman", sans-serif!important; */
-}
-
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username ,
+#chat .chat-container .chat-messages .chat-main li.admin .username,
+#chat .chat-container .chat-messages .chat-main li.admin .user-role ,
 #main_avatar_room #main-user-list-room #avatar-list li.admin .user-role {
     color: #e04af7;
 /*    font-family: "Times New Roman", sans-serif!important; */
 }    
+    
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle.mentioned {
     color:#d1f442;
@@ -397,7 +269,7 @@ limitations under the License.
     opacity: 1;
 }
 
-#chat .chat-container .chat-messages .chat-main li .username:first-child:after
+#chat .chat-container .chat-messages .chat-main li.vip .username:first-child:after
 {
     margin-left: .25rem;    
     transition-property: opacity;
@@ -505,15 +377,10 @@ limitations under the License.
 
 /* Video Player */
 
-/* SoundCloud */
-#room-main-player-container-soundcloud,
-.playerPreview .SCplayerImage{
-  background: url() center center/80% 80% no-repeat,
-              linear-gradient(to top,
-                              rgba(30, 41, 66, 0.70) 0%,
-                              rgba(30, 41, 66, 0.70) 100%),
-                              rgb(30, 41, 66) url(http://i.imgur.com/0sxhBUn.png) !important;
+#main_player .player_container #room-main-player-container .playerElement.soundcloud .artwork {
+display:none;
 }
+
 
 /* Video player */
 #main-room .left_section .main-player-wrapper {
@@ -1064,10 +931,31 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #player-controller .right ul li a.add-to-playlist-button.grabbed .icon-heart:before {
     color: #CC5A93;
 }
-
 #player-controller .right ul li .display-browser:hover .icon-playlist {
     color: #5de514;
 }
+#browser .browser-content #import-playlist-container, #addToPlaylistFloatContainer {
+    background: rgba(20,20,20,.44);
+    border-radius: 1rem;
+}
+#addToPlaylistFloatContainer .create-playlist-input {
+    position: relative;
+    border-top: 1px solid #5de514;
+    border-bottom: 1px solid #5de514;
+}
+#addToPlaylistFloatContainer .create-playlist-header .icon-close {
+    margin-top: .1rem;
+}
+.icon-play:before {
+    content: "\e809";
+    color: #5de514;
+}
+.icon-heart:before {
+    content: "\e803";
+    color: lightcoral;
+}
+
+
 
 /* Current DJ Colour */
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong .username {
@@ -1094,6 +982,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 
 
+
     /*   Chat   */
 #main-room .right_section {
     background: rgba(20,20,20,0.44);
@@ -1110,7 +999,35 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     background-color: #5de514;
 }
 #chat .chat-container .chat-messages .chat-main li.system-error {
+    min-height: 16px;
     text-transform: capitalize;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+#chat .chat-container .chat-messages .chat-main li.chat-me-command-joined, #chat .chat-container .chat-messages .chat-main li.chat-system-grabbed, #chat .chat-container .chat-messages .chat-main li.chat-system-joined, #chat .chat-container .chat-messages .chat-main li.chat-system-left {
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: lightblue;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    left: -9px;
+}
+#chat .chat-options .chat-option-buttons span.active i {
+    color: #5de514;    
+}
+#chat .chat-options .chat-option-buttons span:hover {
+    color: #5de514;    
+    border: 1px solid #5de514;
+
+}
+
+#chat .chat-options .chat-option-buttons span.active:hover {
+    color: #5de514!important;
+}
+#chat .chat-container .chat-messages .chat-main li .meta-info .timeinfo {
+    color: #abd893;
 }
 
 /* Popover */
@@ -1120,15 +1037,14 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 #user_popover {
     border-radius: 0px;
-    background-color: #393939;
-    box-shadow: none;
+    background-color: #191919;
     border: .01rem solid #5de514;
+    display: block;
+    top: 10%!important;
+    left: 82.9%!important;
 }
 #user_popover .global-actions {
     background: #191919;
-}
-#chat .chat-container .chat-messages .chat-main li .meta-info .timeinfo {
-    color: #5de514;
 }
 #user_popover .global-actions a {
     border-radius: .5rem;
@@ -1141,8 +1057,8 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     color: #191919;
 }
 #user_popover .global-actions {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
     
 
@@ -1211,15 +1127,15 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     top: 90.4%;
 }
 #main-menu-right .close-menu {
-    font-size: 1rem;
-    padding: .6rem;
-    position: absolute;
-    left: -2.3rem;
-    line-height: 8px;
-    text-align: center;
-    background: #1c1c1c;
-    border: 1px solid #5de514;
+    left: -2.2rem;
+    border-top: 1px solid #5de514;
+    border-bottom: 1px solid #5de514;
+    border-left: 1px solid #5de514;
 }
+}
+#private-messages .main-message-list, #private-messages .message-details {
+    border-top: 1px solid #5de514;
+    border-left: 1px solid #5de514;
 }
 
 /* Other */
@@ -1227,11 +1143,56 @@ body, button, input, select, textarea { /* all text colour */
     color: ghostwhite;
 }
 a {
-    color: white;
-    font-weight: 900;
+    color: #5de;
+    font-weight: bolder;
 }
+a:hover {
+    color: #5de514;
+}
+/*
+#main-section {
+    font-family: Cursive;
+    background-image: url(http://i.imgur.com/6WgwnXi.jpg); 
+}
+*/
 #main-loading {
     background: #5de514;
+    color: blue;
+}
+
+#profileMainSection .profileView .header .pictureContainer {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+}
+
+#profileMainSection #followersEl .followingContainer .avatarFollower li {
+    border-radius: 10%;
+    border: .5px solid #5de;
+}
+
+#profileMainSection #followersEl .followingContainer .avatarFollower li:hover {
+    border-radius: 30%;
+    border: 1.5px solid #d20;
+}
+
+#main_player .player_container #room-main-player-container .playerElement.soundcloud {
+    overflow: hidden;
+    background-image: url(http://i.imgur.com/Z0lIZCw.jpg?1);
+}
+
+
+#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn,
+#profileMainSection #followersEl .followingContainer .loadallfollowers {
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+#profileMainSection .profileView .infoProfile .edit-btn:hover, #profileMainSection .profileView .infoProfile .follow-btn:hover,
+#profileMainSection #followersEl .followingContainer .loadallfollowers:hover {
+    background-color: #5de514;
+    color: black;
 }
 
 
@@ -1239,3 +1200,12 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+ 
