@@ -18,4 +18,3 @@ Main colour: Mediumpurple (#9370db)
 * Link: https://brotat0.github.io/CSS/mediumpurple.css
 * Tampermonkey Link: https://git.io/vQkYS
 ***
-
