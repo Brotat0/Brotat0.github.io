@@ -4,8 +4,8 @@ Dubtrack Neon
 
 Main colour: #5de514
 
-* Link: https://brotat0.github.io/dubtrackneon.css
-* Tampermonkey Link: https://git.io/vQvz4
+* Link: https://brotat0.github.io/CSS/dubtrackNeon.css
+* Tampermonkey Link: https://git.io/vQkOY
 ***
 
 
@@ -15,7 +15,7 @@ revMediumpurple
 
 Main colour: Mediumpurple (#9370db)
 
-* Link: https://brotat0.github.io/dubtrackmediumpurple.css
-* Tampermonkey Link: https://git.io/vQvzu
+* Link: https://brotat0.github.io/CSS/mediumpurple.css
+* Tampermonkey Link: https://git.io/vQkYS
 ***
 
