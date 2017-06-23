@@ -4,7 +4,7 @@
 #chat .chat-container .chat-messages .chat-main li .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li .user-role {
     color: #f4b942;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.dj .username,
@@ -12,7 +12,7 @@
 #chat .chat-container .chat-messages .chat-main li.dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.dj .user-role {
     color: #1687ff;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username,
@@ -20,7 +20,7 @@
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
     color: #e2440b;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username,
@@ -28,7 +28,7 @@
 #chat .chat-container .chat-messages .chat-main li.vip .user-role ,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
     color: #71f442;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #chat .chat-container .chat-messages .chat-main li.mod .username,
@@ -36,7 +36,7 @@
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
     color: #ff0066;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }    
 
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username,
@@ -44,7 +44,7 @@
 #chat .chat-container .chat-messages .chat-main li.manager .username,
 #main_avatar_room #chat-user-list-room #avatar-list li.manager .user-role{
     color: #42f4d7;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
@@ -52,7 +52,7 @@
 #chat .chat-container .chat-messages .chat-main li.co-owner .username ,
 #main_avatar_room #chat-user-list-room #avatar-list li.co-owner .user-role{
     color: #ff162a;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #chat .chat-container .chat-messages .chat-main li.creator .user-role ,
@@ -60,7 +60,7 @@
 #chat .chat-container .chat-messages .chat-main li.creator .username ,
 #main_avatar_room #chat-user-list-room #avatar-list li.creator .user-role{
     color: #d20000;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.admin .username ,
@@ -68,7 +68,7 @@
 #chat .chat-container .chat-messages .chat-main li.admin .user-role ,
 #main_avatar_room #main-user-list-room #avatar-list li.admin .user-role {
     color: #e04af7;
-/*    font-family: "Times New Roman", sans-serif!important; */
+    font-family: "Times New Roman", sans-serif!important;
 }    
     
 
@@ -86,6 +86,7 @@
     display: none;
 }
 
+/*  DJ roles  */
 #chat .chat-container .chat-messages .chat-main li.admin .username:first-child:after
 {
     margin-left: .25rem;    
@@ -338,10 +339,17 @@ display:none;
 #main-room .left_section .main-player-wrapper {
     display: inline-block;
     vertical-align: top;
+    margin-top: 5%;
 }
 #main_player {
     background: rgba(20,20,20,0.44);
     border-radius: 0rem;
+    padding: 0;
+    zoom: 1.1;
+}
+#main_player .player_sharing {
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 #main_player .player_header {
     background: inherit;
@@ -396,6 +404,11 @@ display:none;
     background-image: url(http://i.imgur.com/jBZA5MQ.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+#room-info-display .room-info-display-wrapper .header span i {
+    color: #5de514;
+    font-weight: 900;
+    cursor: pointer;
 }
 body.video-hidden:not(.no-song-playing) #main_player .player_container #room-main-player-container:before {
      display:none;
@@ -519,6 +532,11 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form:not(:hover) .icon-createplaylist:before {
     background: transparent;
     color: #5de514;
+}
+#browser .browser-content #import-playlist-container, #addToPlaylistFloatContainer {
+    background: rgba(20,20,20,1)!important;
+    border-radius: 1rem;
+    bottom: 30%;
 }
 
 /* Video results container */
@@ -754,6 +772,14 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #browser .browser-content #import-playlist-container .err-message, #browser .browser-content #import-playlist-container .loading-import {
     color: #5de514;
 }
+.icon-play:before {
+    content: "\e809";
+    color: #5de514;
+}
+.icon-heart:before {
+    content: "\e803";
+    color: lightcoral;
+}
 
     /* Video preview */
 .playerPreview {
@@ -840,7 +866,6 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     padding: 0px;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
-    color: #ffffff;
     font-size: .95rem;
     left: 1rem;
 }
@@ -862,7 +887,11 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 #player-controller .right ul li a.dubup.voted span,
 #player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
-    color: #93CC5A;
+    color: #86f4bb;
+}
+.icon-upvote:before {
+    content: "\e801";
+    color: #86f4bb;
 }
 #player-controller .right ul li a,
 #player-controller .right ul li a.dubup:hover:not(.voted) span,
@@ -876,7 +905,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 #player-controller .right ul li a.dubdown.voted span,
 #player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
-    color: #FF4060;
+    color: #d20;
 }
 #player-controller .right ul li a:hover span.icon-heart:before,
 #player-controller .right ul li a.add-to-playlist-button.grabbed span,
@@ -886,10 +915,6 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #player-controller .right ul li .display-browser:hover .icon-playlist {
     color: #5de514;
 }
-#browser .browser-content #import-playlist-container, #addToPlaylistFloatContainer {
-    background: rgba(20,20,20,.44);
-    border-radius: 1rem;
-}
 #addToPlaylistFloatContainer .create-playlist-input {
     position: relative;
     border-top: 1px solid #5de514;
@@ -898,13 +923,9 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #addToPlaylistFloatContainer .create-playlist-header .icon-close {
     margin-top: .1rem;
 }
-.icon-play:before {
-    content: "\e809";
-    color: #5de514;
-}
-.icon-heart:before {
-    content: "\e803";
-    color: lightcoral;
+#addToPlaylistFloatContainer .create-playlist-header {
+    background-color: transparent;
+    text-transform: none!important;
 }
 
 
@@ -1028,9 +1049,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     background: rgba(20,20,20,0);
     zoom: 1;
 }
-.header-center-logo img{
-    visibility: hidden;
-}
+
 #header-global .header-right-navigation .user-info .user-image {
     width: 40px;
     height: 40px;
@@ -1076,7 +1095,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 @media screen and (min-width: 72em) {
 #main-menu-right .close-menu {
-    top: 90.4%;
+    top: 90.2%;
 }
 #main-menu-right .close-menu {
     left: -2.2rem;
@@ -1090,12 +1109,53 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     border-left: 1px solid #5de514;
 }
 
+/* Navigation */
+#main-menu-left nav {
+    position: relative;
+    padding-top: 48px;
+    padding-top: 3rem;
+    height: inherit;
+    background: rgba(20,20,20,.4);
+    border: 1px solid #5de514;
+    bottom: 5px;
+    opacity: .7;
+}
+#main-menu-left nav a.room-active-link {
+    display: none;
+    color: #5de514;
+}
+#main-menu-left nav a.logout-link:hover {
+    color: red;
+}
+#main-menu-left nav a:hover {
+    color: #5de514;
+}
+
+/* Dub Plus */
+.dubplus-menu {
+    background-color: rgba(0, 0, 0, 0.44); 
+    color: #fff;
+    font-size: 14px;
+}
+.dubplus-menu-section-header {
+    border-bottom: 1px solid #444;
+    background-color: rgba(20, 20, 20, 0.2);
+}
+.dubplus-menu-header {
+    padding: 12px 15px;
+    line-height: 1;
+    margin: 0;
+    border-bottom: 1px solid #333;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
 /* Other */
 body, button, input, select, textarea { /* all text colour */
     color: ghostwhite;
 }
 a {
-    color: #5de;
+    color: #fff;
     font-weight: bolder;
 }
 a:hover {
@@ -1144,20 +1204,5 @@ a:hover {
 #profileMainSection .profileView .infoProfile .edit-btn:hover, #profileMainSection .profileView .infoProfile .follow-btn:hover,
 #profileMainSection #followersEl .followingContainer .loadallfollowers:hover {
     background-color: #5de514;
-    color: black;
+    color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
