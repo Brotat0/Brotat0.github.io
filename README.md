@@ -1,4 +1,4 @@
-![](http://i.imgur.com/KVpnNDR.png)
+![](http://i.imgur.com/trZ5oo3.png)
 
 Dubtrack Neon
 
