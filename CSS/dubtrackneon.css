@@ -86,7 +86,6 @@
     display: none;
 }
 
-/*  DJ roles  */
 #chat .chat-container .chat-messages .chat-main li.admin .username:first-child:after
 {
     margin-left: .25rem;    
@@ -543,6 +542,14 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #browser .browser-content {
     border-radius: 0.5rem 0.5rem 0 0;
 }
+#browser .browser-content .browser-content-main .nano .content-videos {
+    background-image: url(http://i.imgur.com/W4dHrVf.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    background-position-x: 500px;
+}
+
 #browser .browser-content .browser-content-main .nano .loading {
     padding: 14px 24px;
     background: rgba(50,50,50,1);
@@ -993,9 +1000,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #chat .chat-options .chat-option-buttons span:hover {
     color: #5de514;    
     border: 1px solid #5de514;
-
 }
-
 #chat .chat-options .chat-option-buttons span.active:hover {
     color: #5de514!important;
 }
@@ -1204,5 +1209,16 @@ a:hover {
 #profileMainSection .profileView .infoProfile .edit-btn:hover, #profileMainSection .profileView .infoProfile .follow-btn:hover,
 #profileMainSection #followersEl .followingContainer .loadallfollowers:hover {
     background-color: #5de514;
-    color: #000;
+    color: black;
 }
+
+
+/* Special */
+#main_avatar_room #main-user-list-room #avatar-list LI.userid-580f434c9b89911a0009114e .username:after {
+    margin-left: .5rem;
+    transition-property: none;
+    font-weight: normal;
+    opacity: 1;
+    content: "css creator";  
+    text-decoration: none!important;
+} 
