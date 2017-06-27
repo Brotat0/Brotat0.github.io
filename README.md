@@ -26,8 +26,8 @@ Main colour: Mediumpurple (#9370db)
 
 Links:
 
-* Minami Shimada saying "Haro-Haro": https://brotat0.github.io/Sounds/MinamiShimada_Haro-Haro.mp3
-* Johnny (The Room) saying "Don't touch me motherf^cker":https://brotat0.github.io/Sounds/TheRoom_1.mp3
-* Johnny (The Room) saying "In a few minutes bitch": https://brotat0.github.io/Sounds/TheRoom_2.mp3
-* Johhny (The Room saying "Oh, hi Mark": https://brotat0.github.io/Sounds/TheRoom_3.mp3
+* Minami Shimada (Baka to Test to Shoukanjuu): https://brotat0.github.io/Sounds/MinamiShimada_Haro-Haro.mp3
+* Johnny (The Room): https://brotat0.github.io/Sounds/TheRoom_1.mp3
+* Johnny (The Room): https://brotat0.github.io/Sounds/TheRoom_2.mp3
+* Johhny (The Room): https://brotat0.github.io/Sounds/TheRoom_3.mp3
 * nb3's Tuturu: https://brotat0.github.io/Sounds/nb3_TUTURU.mp3
