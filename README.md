@@ -31,3 +31,4 @@ Links:
 * Johnny (The Room): https://brotat0.github.io/Sounds/TheRoom_2.mp3
 * Johhny (The Room): https://brotat0.github.io/Sounds/TheRoom_3.mp3
 * nb3's Tuturu: https://brotat0.github.io/Sounds/nb3_TUTURU.mp3
+* Allahu Akbar: https://brotat0.github.io/Sounds/Allahu_Akbar.mp3
