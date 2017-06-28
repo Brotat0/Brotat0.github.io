@@ -1,7 +1,7 @@
 Content:
-* Custom CSS: https://git.io/vQCeq
-* Notification Sounds: https://git.io/vQCe8
-
+* Custom CSS: https://git.io/vQCez#css
+* Notification Sounds: https://git.io/vQCez#sounds
+***
 
 ## CSS
 
