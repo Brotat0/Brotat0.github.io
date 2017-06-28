@@ -1,3 +1,8 @@
+Content:
+* Custom CSS: https://git.io/vQCeq
+* Notification Sounds: https://git.io/vQCe8
+
+
 ## CSS
 
 ![](http://i.imgur.com/trZ5oo3.png)
