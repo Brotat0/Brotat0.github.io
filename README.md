@@ -1,6 +1,6 @@
 Content:
-* Custom CSS: https://git.io/vQCez#css
-* Notification Sounds: https://git.io/vQCez#sounds
+* Custom CSS
+* Notification Sounds
 ***
 
 ## CSS
@@ -18,7 +18,7 @@ Main colour: #5de514
 
 ![](http://i.imgur.com/Wbn0OlR.png)
 
-revMediumpurple
+Dubtrack Mediumpurple
 
 Main colour: Mediumpurple (#9370db)
 
