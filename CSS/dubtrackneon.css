@@ -1,331 +1,5 @@
-/* User Colours */
-#main_avatar_room #main-user-list-room #avatar-list li .username,
-#chat .chat-container .chat-messages .chat-main li .username,
-#chat .chat-container .chat-messages .chat-main li .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li .user-role {
-    color: #f4b942;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.dj .username,
-#chat .chat-container .chat-messages .chat-main li.dj .username,
-#chat .chat-container .chat-messages .chat-main li.dj .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li.dj .user-role {
-    color: #1687ff;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username,
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
-#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
-    color: #e2440b;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.vip .username,
-#chat .chat-container .chat-messages .chat-main li.vip .username,
-#chat .chat-container .chat-messages .chat-main li.vip .user-role ,
-#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-    color: #71f442;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#chat .chat-container .chat-messages .chat-main li.mod .username,
-#main_avatar_room #main-user-list-room #avatar-list li.mod .username,
-#chat .chat-container .chat-messages .chat-main li.mod .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-    color: #ff0066;
-    font-family: "Times New Roman", sans-serif!important;
-}    
-
-#main_avatar_room #main-user-list-room #avatar-list li.manager .username,
-#chat .chat-container .chat-messages .chat-main li.manager .user-role,
-#chat .chat-container .chat-messages .chat-main li.manager .username,
-#main_avatar_room #chat-user-list-room #avatar-list li.manager .user-role{
-    color: #42f4d7;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username ,
-#chat .chat-container .chat-messages .chat-main li.co-owner .username ,
-#main_avatar_room #chat-user-list-room #avatar-list li.co-owner .user-role{
-    color: #ff162a;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#chat .chat-container .chat-messages .chat-main li.creator .user-role ,
-#main_avatar_room #main-user-list-room #avatar-list li.creator .username,
-#chat .chat-container .chat-messages .chat-main li.creator .username ,
-#main_avatar_room #chat-user-list-room #avatar-list li.creator .user-role{
-    color: #d20000;
-    font-family: "Times New Roman", sans-serif!important;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.admin .username ,
-#chat .chat-container .chat-messages .chat-main li.admin .username,
-#chat .chat-container .chat-messages .chat-main li.admin .user-role ,
-#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role {
-    color: #e04af7;
-    font-family: "Times New Roman", sans-serif!important;
-}    
-    
-
-#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle.mentioned {
-    color:#d1f442;
-}
-
-
-/*  DJ roles  */
-#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role,
-#chat .chat-container .chat-messages .chat-main li .username .user-role,
-#main_avatar_room #main-user-list-room #avatar-list li .user-role 
-{
-    display: none;
-}
-
-#chat .chat-container .chat-messages .chat-main li.admin .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Admin";
-}
-#chat .chat-container .chat-messages .chat-main li.admin .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.admin  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Admin";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.admin .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.creator .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Owner";
-}
-#chat .chat-container .chat-messages .chat-main li.creator .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.creator  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Owner";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.creator .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.co-owner .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Co-Owner";
-}
-#chat .chat-container .chat-messages .chat-main li.co-owner .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Co-Owner";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.manager .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Manager";
-}
-#chat .chat-container .chat-messages .chat-main li.manager .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.manager  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Manager";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.manager .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.mod .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Moderator";
-}
-#chat .chat-container .chat-messages .chat-main li.mod .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.mod  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Moderator";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.mod .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.vip .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "VIP";
-}
-#chat .chat-container .chat-messages .chat-main li.vip .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.vip  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "VIP";
-}
-#main_avatar_room #main-user-list-room #avatar-list li.vip .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Resident-DJ";
-}
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Resident-DJ";
-}
-
-#chat .chat-container .chat-messages .chat-main li.dj .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    transition-duration: .25s;
-    opacity: 0;
-    content: "Member";
-}
-#chat .chat-container .chat-messages .chat-main li.dj .username:hover:first-child:after
-{
-    transition-property: opacity;
-    transition-duration: .25s;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list LI.dj  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    transition-duration: .5s;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Member";
-}
-#main_avatar_room #main-user-list-room #avatar-list LI.dj .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
-
-#chat .chat-container .chat-messages .chat-main li .username:first-child:after
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    opacity: 0;
-    content: "Pleb";
-}
-#chat .chat-container .chat-messages .chat-main li .username:hover:first-child:after
-{
-    transition-property: opacity;
-    opacity: 0.8;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list LI  .username:after 
-{
-    margin-left: .25rem;    
-    transition-property: opacity;
-    font-weight: normal;
-    opacity: 0.8;
-    content: "Pleb";
-}
-#main_avatar_room #main-user-list-room #avatar-list LI .username:hover:after
-{
-    transition-property: opacity;
-    opacity: 1;
-}
+@import url('https://www.dl.dropboxusercontent.com/s/pfynkwnslg2lamo/colors.css'); /* User colors */
+@import url('https://www.dl.dropboxusercontent.com/s/47bs0paw89qv2rd/roles.css');  /* User roles */
 
 /* Video Player */
 
@@ -416,18 +90,18 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #main_player .player_header span.skip-el {
     float: right;
     margin-right: 15px;
-    color: white;
-    background-color: red;
+    color: #d20;
+/*    background-color: red; */
     font-family: Helvetica;
-    border: 0.5px solid #ffffff;
-    vertical-align: central;
+/*    border: 0.5px solid #ffffff; */
+    vertical-align: middle;
 }
 #main_player .player_header span.skip-el:hover {
     margin-right: 15px;
     color: red;
-    background-color: white!important;
+/*    background-color: white!important; */
     font-family: Helvetica;
-    border: 0.5px solid red;
+/*    border: 0.5px solid red; */
     vertical-align: central;
 }
 
@@ -543,11 +217,11 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     border-radius: 0.5rem 0.5rem 0 0;
 }
 #browser .browser-content .browser-content-main .nano .content-videos {
-    background-image: url(http://i.imgur.com/W4dHrVf.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 60%;
-    background-position-x: 500px;
+    background-image: url(http://i.imgur.com/W4dHrVf.jpg)!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-size: 60%!important;
+    background-position-x: 500px!important; 
 }
 
 #browser .browser-content .browser-content-main .nano .loading {
@@ -783,9 +457,57 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     content: "\e809";
     color: #5de514;
 }
+#browser .browser-content .browser-content-main .nano .loading {
+    background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions {
+    background-color: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .text-button.pause_dj_all,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .text-button.remove_dj_all,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.remove_icon,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .set_song_to_top_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue {
+    background: transparent;
+    color: #eee;
+    border: none;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions a {
+    border: none;
+    background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions a:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions a:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions a:hover {
+    border: none;
+    background: transparent!important;
+}
+.icon-angle-double-up:before {
+    content: "\e902";
+    color: #5de;
+}
+.icon-trash:before {
+    content: "\e814";
+    color: #777;
+}
 .icon-heart:before {
     content: "\e803";
-    color: lightcoral;
+    color: #d20!important;
 }
 
     /* Video preview */
@@ -823,14 +545,45 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 .playerPreview .player-preview-container-wrapper .ui-slider-handle {
     background: #eee;
 }
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.pause-queue.pause-queue-browser-bth {
+	border: none;
+	background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.pause-queue.pause-queue-browser-bth:hover {
+	color: #5de514;
+	border: none;
+	background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.clear-queue.clear-queue-browser-bth {
+	border: none;
+	background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.clear-queue.clear-queue-browser-bth:hover {
+	border: none;
+	background: transparent;
+	color: #d20;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-shuffle,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-lock.room-queue-lock,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-unlocked.room-queue-unlock {
+	border: none;
+	background: transparent;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-shuffle:hover,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-lock.room-queue-lock:hover,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-unlocked.room-queue-unlock:hover {
+	border: none;
+	background: transparent;
+	color: #5de514;
+}
 
 /* Queue button */
 #main_player .play-song-link-container .play-song-link-browser {
     margin-bottom: 0px;
-    border-radius: 0px;
+	border-radius: 0;
     background: rgba(20,20,20,0.44);
     z-index: 1;
-    text-align:center
+    text-align: center;
 }
 
 #main_player .play-song-link-container .play-song-link-browser i {
@@ -838,7 +591,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 
 #main_player .play-song-link-container .play-song-link-browser:hover i {
-    /*   color: #5de514; */
+	color: #5de514; 
     display: none!important;
 }
 
@@ -850,6 +603,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #main_player .play-song-link-container .play-song-link {
     display: none!important;
 }
+
 
 /*   Player Controller   */
 #player-controller {
@@ -912,7 +666,7 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 #player-controller .right ul li a.dubdown.voted span,
 #player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
-    color: #d20;
+    color: #f0f;
 }
 #player-controller .right ul li a:hover span.icon-heart:before,
 #player-controller .right ul li a.add-to-playlist-button.grabbed span,
@@ -934,7 +688,17 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     background-color: transparent;
     text-transform: none!important;
 }
-
+#player-controller .icon-heart:before {
+    content: "\e803";
+    color: #5de!important;
+}
+#player-controller .right ul li a.add-to-playlist-button.grabbed span {
+    color: #5de;
+}
+.icon-downvote:before {
+    content: "\e802";
+	color: #f0f;
+}
 
 
 /* Current DJ Colour */
@@ -1007,6 +771,18 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 #chat .chat-container .chat-messages .chat-main li .meta-info .timeinfo {
     color: #abd893;
 }
+#main_avatar_room #main-user-list-room #avatar-list li .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.dj .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username:after
+{margin-left: 10px;}
+
+
 
 /* Popover */
 #user_popover .usercontent {
@@ -1054,7 +830,15 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     background: rgba(20,20,20,0);
     zoom: 1;
 }
-
+.header-center-logo a {
+	display: none;
+}
+#header-global {
+    background-image: url(http://i.imgur.com/G2BVyhe.png);
+    background-size: auto 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 #header-global .header-right-navigation .user-info .user-image {
     width: 40px;
     height: 40px;
@@ -1078,7 +862,6 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
      content: "\e800";
      color: #5de514;
  }
-
 #header-global .header-left-navigation  span:hover {
     color: #5de514;
 }
@@ -1088,14 +871,16 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
 }
 
 /* PM */
-#chat .chat-container .chat-messages .chat-main li.user-banned .image_row:before, .icon-close:before {
+#chat .chat-container .chat-messages .chat-main li.user-banned .image_row:before,
+.icon-close:before {
     content: "\e903";
     color: #5de514;
 }
 #private-messages .loading {
     background-color: #5de514;
 }
-#private-messages .main-message-list ul.message-list li.message-item .message-content h3, #private-messages .message-details ul.message-list li.message-item .message-content h3 {
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3,
+#private-messages .message-details ul.message-list li.message-item .message-content h3 {
     color: #5de514;
 }
 @media screen and (min-width: 72em) {
@@ -1154,6 +939,13 @@ body.video-hidden:not(.no-song-playing) #main_player .player_container #room-mai
     font-size: 1.2em;
     color: #ccc;
 }
+.dubplus-icon {
+	transition: transform .5s;
+	transition-timing-function: ease-in-out;
+}
+.dubplus-icon:hover {
+	transform: rotate(-720deg);
+}
 
 /* Other */
 body, button, input, select, textarea { /* all text colour */
@@ -1166,12 +958,7 @@ a {
 a:hover {
     color: #5de514;
 }
-/*
-#main-section {
-    font-family: Cursive;
-    background-image: url(http://i.imgur.com/6WgwnXi.jpg); 
-}
-*/
+
 #main-loading {
     background: #5de514;
     color: blue;
@@ -1195,18 +982,21 @@ a:hover {
 
 #main_player .player_container #room-main-player-container .playerElement.soundcloud {
     overflow: hidden;
-    background-image: url(http://i.imgur.com/Z0lIZCw.jpg?1);
+    background-image: url(http://i.imgur.com/VZSl3t9.jpg);
+    background-size: cover;
 }
 
 
-#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn,
+#profileMainSection .profileView .infoProfile .edit-btn,
+#profileMainSection .profileView .infoProfile .follow-btn,
 #profileMainSection #followersEl .followingContainer .loadallfollowers {
     text-transform: capitalize;
     border-radius: 10px;
     border: 3px solid #fff;
 }
 
-#profileMainSection .profileView .infoProfile .edit-btn:hover, #profileMainSection .profileView .infoProfile .follow-btn:hover,
+#profileMainSection .profileView .infoProfile .edit-btn:hover,
+#profileMainSection .profileView .infoProfile .follow-btn:hover,
 #profileMainSection #followersEl .followingContainer .loadallfollowers:hover {
     background-color: #5de514;
     color: black;
@@ -1221,4 +1011,4 @@ a:hover {
     opacity: 1;
     content: "css creator";  
     text-decoration: none!important;
-} 
+}
