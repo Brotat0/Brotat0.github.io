@@ -33,5 +33,4 @@ Links:
 
 * Minami Shimada (Baka to Test to Shoukanjuu): https://brotat0.github.io/Sounds/Haro-Haro.mp3
 * Shiro (No Game No Life) - Fight: https://brotat0.github.io/Sounds/Shiro-Fight.mp3
-* Shiro (No Game No Life) - Nii: https://brotat0.github.io/Sounds/Shiro_Nii.mp3
 * nb3's Tuturu: https://brotat0.github.io/Sounds/nb3_TUTURU.mp3
