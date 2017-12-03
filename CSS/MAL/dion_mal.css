@@ -1,0 +1,205 @@
+@import url('https://www.dl.dropboxusercontent.com/s/xh21l0bu4jg8fl7/Fonts.css');
+ 
+ 
+body {
+    background-image: url(http://i.imgur.com/WzEB0sP.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header .header-title {
+    left: -35%;
+    background-image: url(https://www.dl.dropboxusercontent.com/s/zc860cjorxkl7hv/MyAnimeList.png);
+}
+.header .username {
+    display: none;
+}
+.header .header-menu .btn-menu {
+    display: none;
+}
+.list-table {
+    border: none;
+}
+ 
+/* Anime List Header */
+.status-menu-container {
+    background-color: #fff!important;
+    border-bottom: none!important;
+}
+.status-menu-container .status-menu .status-button:after {
+    background-color: transparent!important;
+}
+.status-menu-container .status-menu .status-button.on {
+    color: #333;
+    opacity: 0.5;
+}
+.status-menu-container .status-menu .status-button.on:hover {
+    color: #333;
+}
+.status-menu-container .status-menu .status-button {
+    color: #555;
+}
+.status-menu-container .status-menu .status-button:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.status-menu-container .search-container #search-button {
+    color: #999;
+}
+.status-menu-container .search-container #search-button:hover {
+    color: #d20;
+}
+ 
+ 
+/* Anime List */
+.list-unit .list-status-title {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+}
+.list-table .list-table-header .header-title {
+    background: none;
+    border-bottom: #444 5px solid;
+}
+.list-table .list-table-header .header-title .link {
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+}
+.list-table .list-table-header .header-title .link.sort:hover {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.list-table .list-table-header .header-title .link.sort {
+    color: #333;
+}
+.list-table .list-table-header .header-title.started {
+    color: #000;
+}
+.list-container {
+    background-color: transparent!important;
+    border: none!important;
+}
+.list-unit .list-status-title .text,
+.list-unit .list-status-title .text:hover {
+    cursor: default;
+    color: transparent;
+    padding-right: 100px;
+}
+ 
+ 
+/* Anime */
+.list-table .list-table-data .data.status {
+    width: 30px;
+}
+.list-table .list-table-data .data.status.watching, .list-table .list-table-data .data.status.watching:after {
+    content: 'Watching';
+    color: #1aa111;
+    font-weight: bold;
+    background-color: transparent;
+}
+.list-table .list-table-data .data.status.completed, .list-table .list-table-data .data.status.completed:after {
+    background-color: transparent;
+    content: 'Completed';
+    right: 2px;
+    color: #b7ab07;
+    font-weight: bold;
+}
+.list-table .list-table-data .data.number {
+    display: table-cell; 
+    padding: 4px 0; 
+    text-align: left;
+/*    vertical-align: top; */
+    bottom: -5px;
+    background: transparent;
+    color: transparent;
+}
+.list-table .list-table-data .data.status.onhold, .list-table .list-table-data .data.status.onhold:after {
+    background-color: transparent;
+    content: 'On Hold';
+    color: #07b7ab;
+    font-weight: bold;
+}
+.list-table .list-table-data .data.status.plantowatch, .list-table .list-table-data .data.status.plantowatch:after {
+    background-color: transparent;
+    content: 'Plan to watch';
+    text-align: left;
+    color: #5307b7!important;
+    font-weight: bold;
+}
+.list-table .list-table-data .data.status {
+    display: inline-block;
+}
+.list-table .list-table-data .data.image .image {
+    width: 48px;
+    height: 68px;
+    border: none;
+}
+.list-table .list-table-header .header-title.number {
+    width: 30px;
+}
+.list-table .list-table-data .data {
+    border-bottom: none;
+    color: #333;
+    cursor: default;
+}
+.list-table .list-table-data .data {
+    display: table-cell;
+    padding: 4px 0;
+    text-align: right;
+    vertical-align: middle;
+}
+.list-table .list-table-data .data.title .link {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+.list-table .list-table-data .data a {
+    color: #000!important;
+}
+.list-table .list-table-data .data a:hover {
+    color: #777!important;
+}
+ 
+/* List Menu */
+.list-menu-float .icon-menu.profile {
+    background-size: cover;
+    display: none;
+}
+.list-menu-float {
+    border: none!important;
+}
+.list-menu-float .icon-menu .text {
+    font-size: 1.1em;
+    color: #333;
+}
+.list-menu-float .icon-menu svg.icon {
+    position: absolute;
+    fill: #333;
+}
+.list-menu-float .icon-menu svg.icon:hover {
+    color: #777!important;
+    opacity: 0.6;
+}
+.list-menu-float .icon-menu {
+    background-color: transparent!important;
+}
+.list-menu-float .icon-menu:hover {
+    background-color: transparent!important;
+    color: #333;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color: transparent;
+    color: #333;
+}
+ 
+ 
+/* Other */
+.list-container {
+    background-color: transparent!important;
+    border: none!important;
+    right: 13%;
+}
+footer {
+    display:none;
+}
