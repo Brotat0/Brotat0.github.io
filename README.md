@@ -1,8 +1,8 @@
 Content:
 
-# [Dubtrack](https://github.com/Brotat0/Brotat0.github.io/wiki/CSS#dubtrack)
+### [Dubtrack](https://github.com/Brotat0/Brotat0.github.io/wiki/CSS#dubtrack)
 
-# [MyAnimeList](https://github.com/Brotat0/Brotat0.github.io/wiki/CSS#myanimelist)
+### [MyAnimeList](https://github.com/Brotat0/Brotat0.github.io/wiki/CSS#myanimelist)
 
 # Dubtrack
 
