@@ -10,7 +10,6 @@ Content:
 * [Custom CSS](https://git.io/vQvxV#CSS)
 * [Notification Sounds](https://git.io/vQvxV#sounds)
 
-***
 
 ## CSS
 
@@ -22,7 +21,7 @@ Main colour: #5de514
 
 * [Dub+ Link](https://brotat0.github.io/CSS/dubtrackneon.css)
 * [Tampermonkey Link](https://git.io/vQkAu)
-***
+
 
 
 ![](http://i.imgur.com/Wbn0OlR.png)
@@ -33,7 +32,7 @@ Main colour: Mediumpurple (#9370db)
 
 * [Dub+ Link](https://brotat0.github.io/CSS/mediumpurple.css)
 * [Tampermonkey Link](https://git.io/vQkA6)
-***
+
 
 
 ## Sounds
@@ -44,7 +43,7 @@ Links:
 * [Shiro (No Game No Life) - Fight](https://brotat0.github.io/Sounds/Shiro-Fight.mp3)
 * [nb3's Tuturu](https://brotat0.github.io/Sounds/nb3_TUTURU.mp3)
 * [Jar Jar Binks - Ahh Moi Moi](https://brotat0.github.io/Sounds/Jar%20Jar%20Binks%20-%20Ahh%20Moi%20Moi.mp3)
-***
+
 
 
 
