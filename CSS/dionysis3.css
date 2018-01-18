@@ -1,0 +1,712 @@
+@import url('https://www.dl.dropboxusercontent.com/s/pfynkwnslg2lamo/colors.css'); /* User colors */
+@import url('https://www.dl.dropboxusercontent.com/s/47bs0paw89qv2rd/roles.css');  /* User roles */
+@import url('https://www.dl.dropboxusercontent.com/s/71ci5jfcoflbdhe/cssplus.css'); /* Sum extra CSS */
+@import url('https://www.dl.dropboxusercontent.com/s/xh21l0bu4jg8fl7/Fonts.css'); /* Fonts */
+@import url('https://www.dl.dropboxusercontent.com/s/c6nud1zt1lez42u/Video%20Player%20Animations.css'); /* Animations */
+
+/*  Video Player */ 
+#main_player {
+    background: rgba(20,20,20,.7);  
+    border-radius: 0%;
+}
+#main_player #mods-controllers, #main_player #room-info-display, #main_player .player_container{
+    background-image: url('https://is04.ezphotoshare.com/2017/07/19/s7ohxa.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+	color: #fff;
+}
+#main_player #mods-controllers a, #main_player #room-info-display a, #main_player .player_container a {
+	color: #5de;
+	text-shadow: 1px 1px 1px #000;
+}
+body.video-hidden:not(.no-song-playing) #main_player .player_container #room-main-player-container:before {
+     display:none;
+}
+
+/* q button */
+ #main_player .play-song-link-container .play-song-link.active-queue-display {
+    display: none;
+}
+#main_player .play-song-link-container .play-song-link-browser {
+    margin-right: .5rem;
+    margin-bottom: 0;
+    display: inline-block;
+    border-radius: 0%;
+    background: rgba(20,20,20,.7);
+}
+#main_player .play-song-link-container .play-song-link-browser i{
+    color: #5de;
+    margin-right: 8px;
+    margin-right: .5rem;
+    display: inline-block;
+}
+#main_player .play-song-link-container .play-song-link-browser:hover {
+    color: #5de;
+}
+#main_player .placeholder h5 .icon-play {
+    margin-left: 4px;
+    margin-left: .25rem;
+    color: #5de;
+}
+#main_player .placeholder h5 .icon-play:hover {
+	color: red;
+}
+
+/* Player Header */
+#main_player .player_header {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    top: -38px;
+    background-color: rgba(20,20,20,.7);
+}
+ #main_player .player_header span.skip-el {
+    float: right;
+    margin-right: 0;
+    border-radius: 0%;
+    margin-top: 1px;
+    color: white;
+}
+ #main_player .player_header span.skip-el:hover {
+    float: right;
+    margin-right: 0;
+    border-radius: 0%;
+    margin-top: 1px;
+    color: red;
+}
+#main_player .player_header span.active {
+    background: transparent;
+    color: #5de;
+    border-radius: 80%;
+}
+#main_player .player_header span:hover {
+    background: transparent;
+    color: #5de;
+    border-radius: 80%;
+}
+#main_player .player_header span {
+    border-radius: 0%;
+    padding: 8px 16px;
+    background: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: .5rem;
+    display: inline-block;
+    opacity: .8;
+    text-align: center;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    border-radius: 1rem;
+    height: 4.8px;
+    height: .3rem;
+    background: #5de;
+}
+
+
+/* Chat */
+#main-room .right_section {
+    border-radius: 0%;
+    display: block;
+    width: 30rem;
+}
+#chat .chat_tools {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #5de;
+    zoom: 1;
+}
+#chat .pusher-chat-widget-input {
+    position: absolute;
+    padding: 8px 0;
+    padding: .5rem 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #5de;
+}
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
+    border-radius:10px;
+}
+#chat .chat-options .chat-option-buttons span.active i {
+    color: #5de;    
+}
+#chat .chat-options .chat-option-buttons span:hover {
+    color: #5de!important;    
+    border: 1px solid #5de;
+}
+#main_avatar_room #main-user-list-room #avatar-list LI .username:after,
+#main_avatar_room #main-user-list-room #avatar-list LI.dj .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.resident-dj .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.vip .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.mod .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.manager .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.co-owner .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.creator .username:after, 
+#main_avatar_room #main-user-list-room #avatar-list LI.admin .username:after {
+	font-size: 17px;
+	margin-left: 5px;
+}
+#chat .chat-container .chat-messages .chat-main li.chat-me-command-joined,
+#chat .chat-container .chat-messages .chat-main li.chat-system-grabbed,
+#chat .chat-container .chat-messages .chat-main li.chat-system-joined,
+#chat .chat-container .chat-messages .chat-main li.chat-system-left {
+    color: #5de;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    border: 1px solid;
+    padding: 5px 5px 5px 5px;
+    margin-right: 15px;
+}
+#main_avatar_room .avatar_tools .filter-toggle:hover {
+	color: #5de;
+}
+#chat .icon-close:hover {
+	color: #5de;;
+}
+#chat .icon-close{
+	color: #fff;
+}
+#chat .pusher-chat-widget-input #chat-txt-message:focus {
+	border: 1px solid #5de;
+}
+
+
+/* Popover */
+#user_popover .usercontent {
+    background-color: #161616;
+    box-shadow: none;
+}
+#user_popover {
+    border-radius: 0px;
+    background-color: #191919;
+    border: .01rem solid #5de;
+    display: block;
+    top: 10%!important;
+    left: 5px!important;
+    min-width: 16rem;
+    max-width: 19rem;
+}
+#user_popover .global-actions {
+    background: #191919;
+}
+#user_popover .global-actions a {
+    border-radius: .5rem;
+    border: 1px solid #696969;
+    background: 0;
+}
+#user_popover .global-actions a:hover {
+    border-radius: .5rem;
+    background-color: #5de;
+    color: #191919;
+}
+#user_popover .global-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#user_popover .usercontent header .username h3{
+	color: #5de;
+}
+
+/*   Player Controller   */
+#player-controller {
+    background: rgba(20,20,20,0.7);
+}
+#player-controller .left {
+    background: rgba(0,0,0,0);
+}
+#player-controller .right {
+    background: rgba(0,0,0,0);
+}
+#player-controller .left ul li.imgEl {
+    cursor: pointer;
+}
+#player-controller .imgEl img {
+    border-radius: 0px;
+    margin: 0px;
+    max-width: 95%;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner {
+    padding: 0px;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
+    font-size: .95rem;
+    left: 1rem;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
+#player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
+    color: #ffffff!important;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+    background: #5de;
+    border-radius: 0rem;
+    left: 0.9rem;
+}
+#player-controller .right ul li a.dubup:hover,
+#player-controller .right ul li a.dubup.voted,
+#player-controller .right ul li a.dubdown:hover,
+#player-controller .right ul li a.dubdown.voted,
+#player-controller .right ul li a.add-to-playlist-button.grabbed {
+    background: rgba(0,0,0,0);
+}
+#player-controller .right ul li a.dubup.voted span,
+#player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
+    color: #86f4bb;
+}
+.icon-upvote:before {
+    content: "\e801";
+    color: #86f4bb;
+}
+#player-controller .right ul li a,
+#player-controller .right ul li a.dubup:hover:not(.voted) span,
+#player-controller .right ul li a.dubup .icon-arrow-up,
+#player-controller .right ul li a.dubdown:hover:not(.voted) span,
+#player-controller .right ul li a.dubdown .icon-arrow-down,
+#player-controller .right ul li a.add-to-playlist-button.grabbed span,
+#player-controller .right ul li a.add-to-playlist-button:hover span,
+#player-controller .right ul li a span.icon-heart:before {
+    color: #ccc;
+}
+#player-controller .right ul li a.dubdown.voted span,
+#player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
+    color: #f0f;
+}
+#player-controller .right ul li a:hover span.icon-heart:before,
+#player-controller .right ul li a.add-to-playlist-button.grabbed span,
+#player-controller .right ul li a.add-to-playlist-button.grabbed .icon-heart:before {
+    color: #CC5A93;
+}
+#player-controller .right ul li .display-browser:hover .icon-playlist {
+    color: #5de;
+}
+#addToPlaylistFloatContainer {
+	border-radius: 0;
+}
+#addToPlaylistFloatContainer .create-playlist-input .icon-add {
+	background: #5de;
+	color: #fff;
+}
+#addToPlaylistFloatContainer .create-playlist-input {
+    position: relative;
+    border-top: 1px solid #5de;
+    border-bottom: 1px solid #5de;
+}
+#addToPlaylistFloatContainer .create-playlist-header .icon-close {
+    margin-top: .1rem;
+}
+#addToPlaylistFloatContainer .create-playlist-header {
+    background-color: transparent;
+    text-transform: none!important;
+}
+#addToPlaylistFloatContainer .playlist-list-action li:hover {
+	color: #5de;
+}
+#player-controller .icon-heart:before {
+    content: "\e803";
+/*    color: #5de!important; */
+ 	background: -webkit-linear-gradient(white, #5de);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+
+#player-controller .right ul li a.add-to-playlist-button.grabbed span {
+    color: #5de;
+}
+#player-controller .icon-downvote:before {
+    content: "\e802";
+/*	color: #f0f; */
+  background: -webkit-linear-gradient(pink, #f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+		/* Playlist Browser*/
+#browser .browser-content {
+    height: 98%;
+	top: 1%;
+}
+/* Header */
+#browser .browser-content {
+    background: rgba(60,60,60,0.92);
+}
+#browser .browser-content .browser-content-header .close-browser,
+#browser .browser-content .browser-content-header {
+    background: rgba(50,50,50,1);
+    color: #ddd;
+}
+#browser .browser-content .browser-content-header .form input {
+    background: rgba(70,70,70,1);
+    color: #ddd;
+}
+#browser .browser-content .browser-content-header .form .music-type-select,
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown {
+    background: rgba(50,50,50,1);
+    color: #ddd;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span:hover {
+    background: #444;
+    color: #fff;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown {
+    margin-top: 2.5rem;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span {
+    height: 2.5rem;
+}
+#browser .browser-content .browser-content-header .close-browser:hover {
+    background: #444;
+    color: #fff;
+}
+#browser .icon-downvote:before {
+    content: "\e802";
+	color: #5de;
+}
+/**/
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a, #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a {
+    background: none;
+	border: none;
+	margin-right: 10px;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a:hover, #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a:hover {
+	color: #5de;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info input {
+    padding: 0;
+    width: 90%;
+}
+#browser .browser-content .browser-content-main .nano .loading {
+    background: #5de;
+    color: #fff;
+}
+#browser .browser-content .browser-content-header .form input {
+    background: rgba(10,10,10,.5);
+}
+#browser .browser-content .browser-content-header .form .music-type-select {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 96px;
+    background: rgb(50,50,50);
+    padding: 0 0 0 8px;
+    z-index: 100;
+    height: 40px;
+    border-radius: 0%;
+    color: #5de;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span{
+   color: #5de;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist{
+    background: rgb(30,30,30);
+    border-top: 1px solid #5de;
+}
+#browser .browser-content .browser-content-main .sidebar .import-playlist {
+    background: rgb(30,30,30);
+}
+#browser .browser-content .browser-content-main .sidebar .import-playlist span {
+    color: #5de;
+    margin-right: 8px;
+    margin-right: .5rem;
+    font-size: 1rem;
+}
+#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-display span {
+    color: #5de;
+    margin-right: 8px;
+    margin-right: .5rem;
+    font-size: 13.6px;
+    font-size: 1rem;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
+    background: #5de;
+    color: white;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .timeDisplay,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .timeDisplay,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .timeDisplay,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .timeDisplay {
+    display: block;
+    right: 1rem;
+    color: #5de;
+}
+#browser .browser-content .browser-content-main .sidebar {
+    background: rgba(40,40,40,0.7);
+}
+#browser .browser-content .browser-content-main .sidebar .display-sidebar {
+    background: #5de;
+    color: white;
+}
+#browser .browser-content #import-playlist-container h3 {
+    font-size: 20.8px;
+    margin: 0 0 28.8px;
+    font-weight: 700;
+    color: #5de;
+}
+#browser .browser-content #import-playlist-container .playlist-type-select.playlist-tab-import-active{
+    color: #5de;
+    display: block;
+}
+#browser .browser-content #import-playlist-container {
+    background: rgb(40,40,40);
+}
+#browser .browser-content .browser-content-main .sidebar .title {
+    display: block;
+    color: #5de;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span {
+    color: white;
+    margin-right: 8px;
+    margin-right: .5rem;
+    font-size: 13.6px;
+    font-size: 1rem;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview{
+    color: #5de;
+ }
+.icon-playlist:before {
+    content: '\e80c';
+    color: white;
+}
+    /* Video preview */
+.playerPreview {
+    background: rgba(30,30,30,1);
+    padding: 0.5rem;
+}
+.playerPreview .player-preview-container-wrapper .close {
+    border-top-right-radius: 1rem;
+    background: rgba(30,30,30,1);
+    color: #aaa;
+    top: 0;
+    right: 0;
+}
+.playerPreview .player-preview-container-wrapper .close:hover {
+    background: rgba(30,30,30,1);
+    color: #fff;
+}
+.playerPreview .player-preview-container-wrapper .buffering, 
+.playerPreview .player-preview-container-wrapper .error, 
+.playerPreview .player-preview-container-wrapper .loading, 
+.playerPreview .player-preview-container-wrapper .replay {
+    color: #222229;
+    background: #5de;
+}
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress {
+    background: #5de;
+}
+
+.playerPreview .player-preview-container-wrapper .ui-slider-range,
+.playerPreview .player-preview-container-wrapper .ui-slider-handle:hover {
+    background: #5de;
+}
+.playerPreview .player-preview-container-wrapper .ui-slider-handle {
+    background: #eee;
+}
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby {
+	color: #5de;		
+}
+/**/
+
+#browser .icon-angle-double-up:before {
+    content: "\e902";
+    color: #5de;
+}
+#browser .icon-trash:before {
+    content: "\e814";
+    color: #777;
+}
+#browser .icon-heart:before {
+    content: "\e803";
+    color: #d20!important;
+}
+/* Playlist Container */
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button {
+    background: none;
+	border: none; 
+    margin: .7rem 2.5rem .7rem 0;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button:hover,
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button:hover {
+    background: none;
+	border: none; 
+    margin: .7rem 2.5rem .7rem 0;
+	color: #5de;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.clear-queue.clear-queue-browser-bth:hover {
+	border: none;
+	background: transparent;
+	color: red;
+}
+
+/* Header */
+#header-global {
+    background: rgba(20,20,20,.44);
+}
+#header-global .header-right-navigation .user-info .user-image {
+    border-radius: 10px;
+}
+
+.icon-menu:before {
+    content: "\e912";
+    color: #5de;
+}
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron {
+    font-size: 12px;
+    font-size: .75rem;
+    color: #5de;
+}
+#header-global .header-left-navigation  span:hover {
+    color: #5de;
+}
+#header-global .header-left-navigation a:hover {
+    display: inline-block;
+    color: #5de;
+}
+.header-center-logo a {
+	display: none;
+}
+#header-global {
+/*    background-image: url(http://i.imgur.com/pQzBRbL.png); */
+	background-image: url(http://i.imgur.com/8qlIpYw.gif);
+    background-size: auto 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Reverse !important */
+#main-room section.left_section {
+    padding-left: 32rem;
+    padding-right: 0 !important;
+}
+
+#main-room section.right_section {
+    right: auto;
+}
+
+/* Navigation */
+#main-menu-left nav {
+    position: relative;
+    padding-top: 48px;
+    padding-top: 3rem;
+    height: inherit;
+    background: rgba(20,20,20,.4);
+    border: 1px solid #5de;
+    bottom: 5px;
+    opacity: .7;
+}
+#main-menu-left nav a.room-active-link {
+    display: none;
+    color: #5de;
+}
+#main-menu-left nav a.logout-link:hover {
+    color: red;
+}
+#main-menu-left nav a:hover {
+    color: #5de;
+}
+
+/* Dub Plus */
+.dubplus-menu {
+    background-color: rgba(0, 0, 0, 0.44); 
+    color: #fff;
+    font-size: initial!important;
+	height: 85%; 
+	top: 7.5%; 
+}
+.dubplus-menu-section-header {
+    border-bottom: 1px solid #444;
+    background-color: rgba(20, 20, 20, 0.2);
+    font-size: 14px!important;
+}
+.dubplus-menu-header {
+    padding: 12px 15px;
+    line-height: 1;
+    margin: 0;
+    border-bottom: 1px solid #333;
+    font-size: initial!important;
+    color: #ccc;
+}
+.dubplus-icon {
+	transition: transform 1s;
+	transition-timing-function: ease-in-out;
+}
+.dubplus-icon:hover {
+	transform: rotate(-720deg);
+}
+.dubplus-switch .dubplus-menu-label, .dubplus-menu-icon .dubplus-menu-label {
+    font-size: 13px!important;
+}
+
+/* Profile */
+
+#profileMainSection .profileView .header .pictureContainer {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+}
+#profileMainSection #followersEl .followingContainer .avatarFollower li {
+    border-radius: 10%;
+    border: .5px solid #5de;
+}
+#profileMainSection #followersEl .followingContainer .avatarFollower li:hover {
+    border-radius: 30%;
+    border: 1.5px solid #d20;
+}
+#main_player .player_container #room-main-player-container .playerElement.soundcloud {
+    overflow: hidden;
+    background-image: url(http://i.imgur.com/VZSl3t9.jpg);
+    background-size: cover;
+}
+#profileMainSection .profileView .infoProfile .edit-btn,
+#profileMainSection .profileView .infoProfile .follow-btn,
+#profileMainSection #followersEl .followingContainer .loadallfollowers {
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+#profileMainSection .profileView .infoProfile .edit-btn:hover,
+#profileMainSection .profileView .infoProfile .follow-btn:hover,
+#profileMainSection #followersEl .followingContainer .loadallfollowers:hover {
+    background-color: #5de;
+    color: #fff;
+}
+
+/* Other */
+#main-loading {
+    background: #5de;;
+    color: #fff;
+}
+body, button, input, select, textarea { /* all text colour */
+    color: ghostwhite;
+}
+a {
+    color: #fff;
+    font-weight: bolder;
+}
+a:hover {
+    color: #5de;
+}
+
+
+/* Special 
+#main_avatar_room #main-user-list-room #avatar-list LI.userid-580f434c9b89911a0009114e .username:after {
+    margin-left: .5rem;
+    transition-property: none;
+    font-weight: normal;
+    opacity: 1;
+    content: "css creator";  
+    text-decoration: none!important;
+}
+
+#chat .chat-container .chat-messages .chat-main li.user-580f434c9b89911a0009114e .username:first-child:after {
+    margin-left: 10px;
+    transition-property: opacity;
+    opacity: 0;
+    content: "css creator"!important;
+}
