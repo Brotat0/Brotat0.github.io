@@ -127,6 +127,12 @@ body {
     color: #5307b7!important;
     font-weight: bold;
 }
+.list-table .list-table-data .data.status.dropped, .list-table .list-table-data .data.status.dropped:after {
+	color:#d20000;
+  content:"Dropped";
+  font-weight: bold;
+  background-color:transparent;
+}
 .list-table .list-table-data .data.status {
     display: inline-block;
 }
