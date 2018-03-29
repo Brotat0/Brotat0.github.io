@@ -1,10 +1,12 @@
-@import url('https://www.dl.dropboxusercontent.com/s/xh21l0bu4jg8fl7/Fonts.css');
- 
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 body {
     background-image: url(http://i.imgur.com/WzEB0sP.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: "Courgette";
+    font-size: 13px;
 }
 .header .header-title {
     left: -35%;
@@ -19,8 +21,11 @@ body {
 .list-table {
     border: none;
 }
- 
+
 /* Anime List Header */
+.status-menu-container .status-menu .status-button {
+    font-family: "Courgette";
+}
 .status-menu-container {
     background-color: #fff!important;
     border-bottom: none!important;
@@ -48,8 +53,7 @@ body {
 .status-menu-container .search-container #search-button:hover {
     color: #d20;
 }
- 
- 
+
 /* Anime List */
 .list-unit .list-status-title {
     background-color: transparent;
@@ -86,8 +90,7 @@ body {
     color: transparent;
     padding-right: 100px;
 }
- 
- 
+
 /* Anime */
 .list-table .list-table-data .data.status {
     width: 30px;
@@ -127,12 +130,6 @@ body {
     color: #5307b7!important;
     font-weight: bold;
 }
-.list-table .list-table-data .data.status.dropped, .list-table .list-table-data .data.status.dropped:after {
-	color:#d20000;
-  content:"Dropped";
-  font-weight: bold;
-  background-color:transparent;
-}
 .list-table .list-table-data .data.status {
     display: inline-block;
 }
@@ -165,18 +162,15 @@ body {
 .list-table .list-table-data .data a:hover {
     color: #777!important;
 }
- 
+
 /* List Menu */
-.list-menu-float .icon-menu.profile {
-    background-size: cover;
-    display: none;
-}
 .list-menu-float {
     border: none!important;
 }
 .list-menu-float .icon-menu .text {
     font-size: 1.1em;
     color: #333;
+    font-family: "Courgette";
 }
 .list-menu-float .icon-menu svg.icon {
     position: absolute;
@@ -197,8 +191,7 @@ body {
     background-color: transparent;
     color: #333;
 }
- 
- 
+
 /* Other */
 .list-container {
     background-color: transparent!important;
