@@ -1,4 +1,3 @@
-s (16 sloc)  463 Bytes
 // ==UserScript==
 // @name         [CSS] Dionysis #3
 // @namespace    CSS
