@@ -123,6 +123,11 @@ body {
     color: #07b7ab;
     font-weight: bold;
 }
+.list-table .list-table-data .data.status.dropped:after {
+    content: "Dropped";
+    color: #d20;
+    font-weight: bold;
+}
 .list-table .list-table-data .data.status.plantowatch, .list-table .list-table-data .data.status.plantowatch:after {
     background-color: transparent;
     content: 'Plan to watch';
