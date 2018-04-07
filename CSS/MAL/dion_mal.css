@@ -21,17 +21,29 @@ body {
 .list-table {
     border: none;
 }
+.header .header-menu{
+	margin-right: 200px;
+}
+.header-menu:after {
+    content: "Dionysis's List";
+    font-size: 30px;
+    color: #333;
+    animation: on-off 2s infinite ease-in-out;
+    font-weight: 900;
+    text-shadow: 9px 8px 12px;
+    position: fixed;
+}
 
 /* Anime List Header */
 .status-menu-container .status-menu .status-button {
     font-family: "Courgette";
 }
 .status-menu-container {
-    background-color: #fff!important;
-    border-bottom: none!important;
+    background-color: #fff;
+    border-bottom: none;
 }
 .status-menu-container .status-menu .status-button:after {
-    background-color: transparent!important;
+    background-color: transparent;
 }
 .status-menu-container .status-menu .status-button.on {
     color: #333;
@@ -80,9 +92,12 @@ body {
 .list-table .list-table-header .header-title.started {
     color: #000;
 }
+.list-table > tbody:nth-of-type(2n+1) {
+    background-color: transparent;
+}
 .list-container {
-    background-color: transparent!important;
-    border: none!important;
+    background-color: transparent;
+    border: none;
 }
 .list-unit .list-status-title .text,
 .list-unit .list-status-title .text:hover {
@@ -139,7 +154,7 @@ body {
     background-color: transparent;
     content: 'Plan to watch';
     text-align: left;
-    color: #5307b7!important;
+    color: #5307b7;
     font-weight: bold;
 }
 .list-table .list-table-data .data.status {
@@ -169,15 +184,15 @@ body {
     font-weight: bold;
 }
 .list-table .list-table-data .data a {
-    color: #000!important;
+    color: #000;
 }
 .list-table .list-table-data .data a:hover {
-    color: #777!important;
+    color: #777;
 }
 
 /* List Menu */
 .list-menu-float {
-    border: none!important;
+    border: none;
 }
 .list-menu-float .icon-menu .text {
     font-size: 1.1em;
@@ -189,14 +204,14 @@ body {
     fill: #333;
 }
 .list-menu-float .icon-menu svg.icon:hover {
-    color: #777!important;
+    color: #777;
     opacity: 0.6;
 }
 .list-menu-float .icon-menu {
-    background-color: transparent!important;
+    background-color: transparent;
 }
 .list-menu-float .icon-menu:hover {
-    background-color: transparent!important;
+    background-color: transparent;
     color: #333;
 }
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
@@ -206,10 +221,15 @@ body {
 
 /* Other */
 .list-container {
-    background-color: transparent!important;
-    border: none!important;
+    background-color: transparent;
+    border: none;
     right: 13%;
 }
 footer {
     display:none;
+}
+
+@keyframes on-off{
+0%{text-decoration: underline;}
+50%{text-decoration: none;}
 }
