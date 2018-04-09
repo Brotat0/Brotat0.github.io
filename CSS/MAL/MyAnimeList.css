@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
 body {
-    background-image: url(http://i.imgur.com/WzEB0sP.jpg);
+    background-image: url(/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,7 +10,7 @@ body {
 }
 .header .header-title {
     left: -35%;
-    background-image: url(https://www.dl.dropboxusercontent.com/s/zc860cjorxkl7hv/MyAnimeList.png);
+    background-image: url(/logo.png);
 }
 .header .username {
     display: none;
