@@ -12,7 +12,7 @@
     'use strict';
 
     var cssUrl = 'https://brotat0.github.io/CSS/dubtrackneon.css';
-
+    
 
     $(document).ready(function () {
         $('head').append('<link href="' + cssUrl + '" rel="stylesheet" type="text/css">');
