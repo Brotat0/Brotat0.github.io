@@ -165,6 +165,13 @@ body {
     height: 68px;
     border: none;
 }
+.list-table .list-table-data .data.status.dropped {
+    background-color: transparent;
+    padding-top: 30px;
+}
+.list-table .list-table-data .data.title .link:hover {
+    animation: shake 1s;
+}
 .list-table .list-table-header .header-title.number {
     width: 30px;
 }
@@ -191,6 +198,9 @@ body {
 }
 
 /* List Menu */
+.list-menu-float .icon-menu.profile {
+    display: none;
+}
 .list-menu-float {
     border: none;
 }
@@ -218,6 +228,24 @@ body {
     background-color: transparent;
     color: #333;
 }
+.list-menu-float .icon-menu.setting:hover{
+  background: transparent;
+}
+
+.list-menu-float .icon-menu.logout:hover{
+  background: transparent;
+}
+
+.list-menu-float .icon-menu.quick-add:hover{
+  background: transparent;
+}
+
+.list-menu-float .icon-menu.export,
+.list-menu-float .icon-menu.history,
+.list-menu-float .icon-menu.manga-list,
+.list-menu-float .icon-menu.anime-list{
+  display: none;
+}
 
 /* Other */
 .list-container {
@@ -229,7 +257,30 @@ footer {
     display:none;
 }
 
+/* Animations */
+.list-table .list-table-data .data.status.dropped {
+    background-color: transparent;
+    padding-top: 30px;
+}
+.list-table .list-table-data .data.title .link:hover {
+    animation: shake 1s;
+}
+.status-menu-container .status-menu .status-button:active{
+    animation: rotate .1s;
+}
+
 @keyframes on-off{
 0%{text-decoration: underline;}
 50%{text-decoration: none;}
+}
+
+@keyframes shake{
+0%{padding-left: 5px;font-size: 16px;}
+10%{padding-left: 0;font-size: 16px;}
+20%{padding-left: 5px;font-size: 16px;}
+30%{padding-left: 0;font-size: 16px;}
+}
+
+@keyframes rotate{
+0%{font-size:10px;transform:rotate(180deg)}
 }
