@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    var cssUrl = 'https://brotat0.github.io/CSS/MAL/dion_mal.css';
+    var cssUrl = 'https://brotat0.github.io/CSS/MAL/MyAnimeList.css';
 
 
     $(document).ready(function () {
