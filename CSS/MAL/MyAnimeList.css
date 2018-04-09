@@ -21,18 +21,6 @@ body {
 .list-table {
     border: none;
 }
-.header .header-menu{
-	margin-right: 200px;
-}
-.header-menu:after {
-    content: "Dionysis's List";
-    font-size: 30px;
-    color: #333;
-    animation: on-off 2s infinite ease-in-out;
-    font-weight: 900;
-    text-shadow: 9px 8px 12px;
-    position: fixed;
-}
 
 /* Anime List Header */
 .status-menu-container .status-menu .status-button {
